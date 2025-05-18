@@ -182,7 +182,7 @@ Q51: How often should I check my weight?
 A: Once a week is sufficient for tracking.
 ` 
 
-const API_KEY = "AIzaSyBYmjrozDLGBiOJfrZJ1Qrkx8QkAUKm5mw";
+const API_KEY = "YOUR_API_KEY";
 const genAI = new GoogleGenerativeAI(API_KEY);
 const model = genAI.getGenerativeModel({ 
     model: "gemini-1.5-flash", 
